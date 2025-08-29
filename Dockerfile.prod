@@ -1,0 +1,56 @@
+# Install Operating system and dependencies
+FROM ubuntu:20.04 AS build
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update 
+RUN apt-get install -y curl git wget unzip libgconf-2-4 gdb libstdc++6 libglu1-mesa fonts-droid-fallback python3
+RUN apt-get clean
+
+# define variables
+ARG FLUTTER_SDK=/usr/local/flutter
+ARG FLUTTER_VERSION=3.16.9
+ARG APP=/app/
+
+# download Flutter SDK from Flutter Github repo
+RUN git clone https://github.com/flutter/flutter.git $FLUTTER_SDK
+
+# change dir to current flutter folder and make a checkout to the specific version
+RUN cd $FLUTTER_SDK && git fetch && git checkout $FLUTTER_VERSION
+
+# Set flutter environment path
+ENV PATH="/usr/local/flutter/bin:/usr/local/flutter/bin/cache/dart-sdk/bin:${PATH}"
+
+################ Start to run Flutter commands
+
+# Enable flutter web - choose channel stable|beta|dev|master
+# RUN flutter channel stable
+# RUN flutter downgrade v3.16.9
+# RUN flutter upgrade
+# RUN flutter config --enable-web
+
+# Run flutter doctor to see if all was installed ok
+RUN flutter doctor -v
+
+# Copy source files to container and build
+RUN mkdir $APP
+COPY . $APP
+WORKDIR $APP
+
+# Run build: 1 - clean, 2 - pub get, 3 - build web
+RUN flutter clean
+RUN flutter pub get
+RUN flutter build web --release --target lib/main_production.dart
+# once heare the app will be compiled and ready to deploy
+
+# Publish
+FROM nginx:alpine
+# Copia los archivos del app Flutter a la ubicación del sitio web en NGINX
+COPY --from=build /app/build/web /usr/share/nginx/html
+
+# Copia tu archivo de configuración personalizado para NGINX
+RUN sed -i 's|index.htm;|index.htm;\n \       try_files $uri $uri\/ \/index.html;|g' /etc/nginx/conf.d/default.conf
+
+# Expose and run nginx
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

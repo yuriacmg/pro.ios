@@ -1,0 +1,2 @@
+C:/Users/EXPERIS_REAL_PLAZA/Documents/Personal/Proyectos/flutter/perubeca/android/app/.cxx/Debug/581q1434/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/EXPERIS_REAL_PLAZA/Documents/Personal/Proyectos/flutter/perubeca/android/app/.cxx/Debug/581q1434/x86_64/CMakeFiles/rebuild_cache.dir

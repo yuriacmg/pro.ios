@@ -1,0 +1,11 @@
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path_android: assets/launcher_icons/stg/pronabec-android.png
+  image_path_ios: assets/launcher_icons/stg/pronabec-ios.png
+  adaptive_icon_background: assets/launcher_icons/stg/pronabec_adap_background.png
+  adaptive_icon_foreground: assets/launcher_icons/stg/pronabec_adap_foreground.png
+  web:
+    generate: true
+    image_path: assets/launcher_icons/stg/pronabec-android.png

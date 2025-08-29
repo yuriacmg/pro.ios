@@ -1,0 +1,1004 @@
+{
+    "value": {
+        "modalidad": [
+            {
+                "modId": 200003,
+                "nomCompleto": "Beca 18 REPARED para Víctimas de la violencia habida en el país durante los años 1980 - 2000.",
+                "nomCorto": "Beca 18 - Modalidad REPARED",
+                "codigo": "REPARED",
+                "enlaceMod": "https://www.gob.pe/41478-beca-18-modalidad-repared",
+                "enlaceInform": "https://www.gob.pe/41478-beca-18-modalidad-repared",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_REPARED.png",
+                "enlaceLogOffline": "/logos/BECA18_REPARED.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 13
+                    },
+                    {
+                        "filtro_contenido_id": 26
+                    }
+                ]
+            },
+            {
+                "modId": 200007,
+                "nomCompleto": "Beca 18 EIB de Formación en Educación Intercultural Bilingüe.",
+                "nomCorto": "Beca 18 - Modalidad EIB",
+                "codigo": "EIB",
+                "enlaceMod": "https://www.gob.pe/41506-beca-18-modalidad-eib",
+                "enlaceInform": "https://www.gob.pe/41506-beca-18-modalidad-eib",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_EIB.png",
+                "enlaceLogOffline": "/logos/BECA18_EIB.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 17
+                    }
+                ]
+            },
+            {
+                "modId": 200008,
+                "nomCompleto": "Beca 18 CNA y PA para Comunidades Nativas Amazónicas y Poblaciones Afroperuanas.",
+                "nomCorto": "Beca 18 - Modalidad CNA y PA",
+                "codigo": "CNA y PA",
+                "enlaceMod": "https://www.gob.pe/41505-beca-18-modalidad-cna-y-pa",
+                "enlaceInform": "https://www.gob.pe/41505-beca-18-modalidad-cna-y-pa",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_CNAyPA.png",
+                "enlaceLogOffline": "/logos/BECA18_CNAyPA.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 20
+                    },
+                    {
+                        "filtro_contenido_id": 24
+                    }
+                ]
+            },
+            {
+                "modId": 200009,
+                "nomCompleto": "Beca de Permanencia de Estudios Nacional.",
+                "nomCorto": "Beca Permanencia",
+                "codigo": "BECAPER",
+                "enlaceMod": "https://www.gob.pe/510-beca-permanencia",
+                "enlaceInform": "https://www.gob.pe/510-beca-permanencia",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_PERMANENCIA_.png",
+                "enlaceLogOffline": "/logos/BECA_PERMANENCIA_.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 5
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 16
+                    }
+                ]
+            },
+            {
+                "modId": 200010,
+                "nomCompleto": "Beca Generación del Bicentenario.",
+                "nomCorto": "Beca Generación del Bicentenario",
+                "codigo": "BGB",
+                "enlaceMod": "https://www.gob.pe/1037-concurso-beca-generacion-del-bicentenario",
+                "enlaceInform": "https://www.gob.pe/1037-concurso-beca-generacion-del-bicentenario",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_GenBICENTENARIO_.png",
+                "enlaceLogOffline": "/logos/BECA_GenBICENTENARIO_.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 4
+                    },
+                    {
+                        "filtro_contenido_id": 5
+                    },
+                    {
+                        "filtro_contenido_id": 6
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    }
+                ]
+            },
+            {
+                "modId": 200012,
+                "nomCompleto": "Beca Perú.",
+                "nomCorto": "Beca Perú",
+                "codigo": "BP",
+                "enlaceMod": "https://www.gob.pe/48037-beca-peru",
+                "enlaceInform": "https://www.gob.pe/48037-beca-peru",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_PERU.png",
+                "enlaceLogOffline": "/logos/BECA_PERU.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 4
+                    },
+                    {
+                        "filtro_contenido_id": 5
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 13
+                    }
+                ]
+            },
+            {
+                "modId": 200013,
+                "nomCompleto": "Beca Alianza del Pacífico.",
+                "nomCorto": "Beca Alianza del Pacífico",
+                "codigo": "BAP",
+                "enlaceMod": "https://www.gob.pe/50469-beca-alianza-del-pacifico",
+                "enlaceInform": "https://www.gob.pe/50469-beca-alianza-del-pacifico",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_ALIANZA_PACIFICO.png",
+                "enlaceLogOffline": "/logos/BECA_ALIANZA_PACIFICO.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 4
+                    },
+                    {
+                        "filtro_contenido_id": 5
+                    },
+                    {
+                        "filtro_contenido_id": 6
+                    },
+                    {
+                        "filtro_contenido_id": 7
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 23
+                    }
+                ]
+            },
+            {
+                "modId": 200014,
+                "nomCompleto": "Beca Inclusión Técnico Productiva.",
+                "nomCorto": "Beca Inclusión Técnico Productiva",
+                "codigo": "BITP",
+                "enlaceMod": "https://www.gob.pe/48545-beca-inclusion-tecnico-productiva",
+                "enlaceInform": "https://www.gob.pe/48545-beca-inclusion-tecnico-productiva",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_INCLUSION_TP.png",
+                "enlaceLogOffline": "/logos/BECA_INCLUSION_TP.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 2
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 13
+                    }
+                ]
+            },
+            {
+                "modId": 200015,
+                "nomCompleto": "Beca Técnico Productiva REPARED.",
+                "nomCorto": "Beca Técnico Productiva REPARED",
+                "codigo": "BTPREPARED",
+                "enlaceMod": "https://www.gob.pe/47980-beca-tecnico-productiva-repared",
+                "enlaceInform": "https://www.gob.pe/47980-beca-tecnico-productiva-repared",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_TP_REPARED.png",
+                "enlaceLogOffline": "/logos/BECA_TP_REPARED.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 27
+                    },
+                    {
+                        "filtro_contenido_id": 31
+                    },
+                    {
+                        "filtro_contenido_id": 26
+                    },
+                    {
+                        "filtro_contenido_id": 2
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 13
+                    }
+                ]
+            },
+            {
+                "modId": 200016,
+                "nomCompleto": "Beca Técnico Productiva Comunidad Nativa Amazónica.",
+                "nomCorto": "Beca Técnico Productiva Comunidad Nativa Amazónica",
+                "codigo": "BTPCNA",
+                "enlaceMod": "https://www.gob.pe/48020-beca-tecnico-productiva-comunidad-nativa-amazonica",
+                "enlaceInform": "https://www.gob.pe/48020-beca-tecnico-productiva-comunidad-nativa-amazonica",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_TP_CNA.png",
+                "enlaceLogOffline": "/logos/BECA_TP_CNA.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 27
+                    },
+                    {
+                        "filtro_contenido_id": 2
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 13
+                    },
+                    {
+                        "filtro_contenido_id": 24
+                    },
+                    {
+                        "filtro_contenido_id": 31
+                    }
+                ]
+            },
+            {
+                "modId": 200002,
+                "nomCompleto": "Beca 18 para adolescentes con protección estatal.",
+                "nomCorto": "Beca 18 - Modalidad Protección",
+                "codigo": "ALBERGUE",
+                "enlaceMod": "https://www.gob.pe/41504-beca-18-modalidad-proteccion",
+                "enlaceInform": "https://www.gob.pe/41504-beca-18-modalidad-proteccion",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_proteccion.png",
+                "enlaceLogOffline": "/logos/BECA18_proteccion.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 1
+                    },
+                    {
+                        "filtro_contenido_id": 28
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 22
+                    }
+                ]
+            },
+            {
+                "modId": 200017,
+                "nomCompleto": "Beca inclusión carreras profesionales.",
+                "nomCorto": "Beca inclusión carreras profesionales",
+                "codigo": "BICP",
+                "enlaceMod": "https://www.gob.pe/44161-beca-inclusion-carreras-profesionales",
+                "enlaceInform": "https://www.gob.pe/44161-beca-inclusion-carreras-profesionales",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_INCLUSION_CP.png",
+                "enlaceLogOffline": "/logos/BECA_INCLUSION_CP.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": false,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 4
+                    },
+                    {
+                        "filtro_contenido_id": 5
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 13
+                    }
+                ]
+            },
+            {
+                "modId": 200018,
+                "nomCompleto": "Crédito Talento.",
+                "nomCorto": "Crédito Talento",
+                "codigo": "CT",
+                "enlaceMod": "https://www.gob.pe/51393-credito-talento",
+                "enlaceInform": "https://www.gob.pe/51393-credito-talento",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/CREDITO_TALENTO.png",
+                "enlaceLogOffline": "/logos/CREDITO_TALENTO.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 1
+                    },
+                    {
+                        "filtro_contenido_id": 29
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 16
+                    }
+                ]
+            },
+            {
+                "modId": 200001,
+                "nomCompleto": "Beca 18 Ordinaria.",
+                "nomCorto": "Beca 18 - Modalidad Ordinaria",
+                "codigo": "ORDINARIA",
+                "enlaceMod": "https://www.gob.pe/41355-beca-18-modalidad-ordinaria",
+                "enlaceInform": "https://www.gob.pe/41355-beca-18-modalidad-ordinaria",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_ordinaria.png",
+                "enlaceLogOffline": "/logos/BECA18_ordinaria.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 1
+                    },
+                    {
+                        "filtro_contenido_id": 28
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 16
+                    }
+                ]
+            },
+            {
+                "modId": 200004,
+                "nomCompleto": "Beca 18 VRAEM para pobladores del Valle de los ríos Apurímac, Ene y Mantaro.",
+                "nomCorto": "Beca 18 - Modalidad VRAEM",
+                "codigo": "VRAEM",
+                "enlaceMod": "https://www.gob.pe/41501-beca-18-modalidad-vraem",
+                "enlaceInform": "https://www.gob.pe/41501-beca-18-modalidad-vraem",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_VRAEM.png",
+                "enlaceLogOffline": "/logos/BECA18_VRAEM.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 1
+                    },
+                    {
+                        "filtro_contenido_id": 28
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 18
+                    }
+                ]
+            },
+            {
+                "modId": 200005,
+                "nomCompleto": "Beca 18 HUALLAGA para pobladores residentes en el Huallaga.",
+                "nomCorto": "Beca 18 - Modalidad Huallaga",
+                "codigo": "HUALLAGA",
+                "enlaceMod": "https://www.gob.pe/41503-beca-18-modalidad-huallaga",
+                "enlaceInform": "https://www.gob.pe/41503-beca-18-modalidad-huallaga",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_Huallaga.png",
+                "enlaceLogOffline": "/logos/BECA18_Huallaga.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 1
+                    },
+                    {
+                        "filtro_contenido_id": 28
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 19
+                    }
+                ]
+            },
+            {
+                "modId": 200006,
+                "nomCompleto": "Beca 18 FF.AA. para Licenciados del Servicio Militar Voluntario.",
+                "nomCorto": "Beca 18 - Modalidad FFAA",
+                "codigo": "FFAA",
+                "enlaceMod": "https://www.gob.pe/41507-beca-18-modalidad-ff-aa",
+                "enlaceInform": "https://www.gob.pe/41507-beca-18-modalidad-ff-aa",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA18_FF.AA.png",
+                "enlaceLogOffline": "/logos/BECA18_FF.AA.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 27
+                    },
+                    {
+                        "filtro_contenido_id": 30
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 12
+                    },
+                    {
+                        "filtro_contenido_id": 21
+                    }
+                ]
+            },
+            {
+                "modId": 200011,
+                "nomCompleto": "Beca Hijos de Docentes.",
+                "nomCorto": "Beca Hijos de Docentes",
+                "codigo": "BEAHD",
+                "enlaceMod": "https://www.gob.pe/47702-beca-hijos-de-docentes",
+                "enlaceInform": "https://www.gob.pe/47702-beca-hijos-de-docentes",
+                "enlaceLog": "https://static-postulaciones.pronabec.gob.pe/apps/peru_beca/recursos/logos/BECA_BEAHD.png",
+                "enlaceLogOffline": "/logos/BECA_BEAHD.png",
+                "vFecPostu": "Diciembre de 2024",
+                "dFecPostu": "2024-12-31T00:00:00",
+                "publicada": true,
+                "estado": true,
+                "estadoConDiscapacidad": true,
+                "palabras_clave": [
+                    {
+                        "filtro_contenido_id": 1
+                    },
+                    {
+                        "filtro_contenido_id": 29
+                    },
+                    {
+                        "filtro_contenido_id": 14
+                    },
+                    {
+                        "filtro_contenido_id": 25
+                    },
+                    {
+                        "filtro_contenido_id": 8
+                    },
+                    {
+                        "filtro_contenido_id": 9
+                    },
+                    {
+                        "filtro_contenido_id": 10
+                    },
+                    {
+                        "filtro_contenido_id": 11
+                    },
+                    {
+                        "filtro_contenido_id": 3
+                    },
+                    {
+                        "filtro_contenido_id": 4
+                    },
+                    {
+                        "filtro_contenido_id": 5
+                    }
+                ]
+            }
+        ],
+        "parametros_filtro": [
+            {
+                "filtro_id": 1,
+                "tipo": "rango_numero",
+                "objeto": "numerico",
+                "titulo": "Edad",
+                "opciones": [
+                    {
+                        "filtro_contenido_id": 1,
+                        "opciones": "6",
+                        "orden": 1
+                    },
+                    {
+                        "filtro_contenido_id": 27,
+                        "opciones": "18",
+                        "orden": 2
+                    },
+                    {
+                        "filtro_contenido_id": 28,
+                        "opciones": "21",
+                        "orden": 3
+                    },
+                    {
+                        "filtro_contenido_id": 29,
+                        "opciones": "22",
+                        "orden": 4
+                    },
+                    {
+                        "filtro_contenido_id": 30,
+                        "opciones": "30",
+                        "orden": 5
+                    },
+                    {
+                        "filtro_contenido_id": 31,
+                        "opciones": "100",
+                        "orden": 6
+                    }
+                ],
+                "orden": 1
+            },
+            {
+                "filtro_id": 2,
+                "tipo": "seleccion",
+                "objeto": "boton",
+                "titulo": "Nivel de estudios",
+                "opciones": [
+                    {
+                        "filtro_contenido_id": 2,
+                        "opciones": "Primaria",
+                        "orden": 1
+                    },
+                    {
+                        "filtro_contenido_id": 3,
+                        "opciones": "Secundaria",
+                        "orden": 2
+                    },
+                    {
+                        "filtro_contenido_id": 4,
+                        "opciones": "Técnico",
+                        "orden": 3
+                    },
+                    {
+                        "filtro_contenido_id": 5,
+                        "opciones": "Universitario",
+                        "orden": 4
+                    },
+                    {
+                        "filtro_contenido_id": 6,
+                        "opciones": "Maestría",
+                        "orden": 5
+                    },
+                    {
+                        "filtro_contenido_id": 7,
+                        "opciones": "Doctorado",
+                        "orden": 6
+                    }
+                ],
+                "orden": 2
+            },
+            {
+                "filtro_id": 3,
+                "tipo": "seleccion",
+                "objeto": "boton",
+                "titulo": "Rendimiento académico",
+                "opciones": [
+                    {
+                        "filtro_contenido_id": 8,
+                        "opciones": "Primer o segundo puesto",
+                        "orden": 1
+                    },
+                    {
+                        "filtro_contenido_id": 9,
+                        "opciones": "Décimo superior",
+                        "orden": 2
+                    },
+                    {
+                        "filtro_contenido_id": 10,
+                        "opciones": "Quinto superior",
+                        "orden": 3
+                    },
+                    {
+                        "filtro_contenido_id": 11,
+                        "opciones": "Tercio superior",
+                        "orden": 4
+                    },
+                    {
+                        "filtro_contenido_id": 12,
+                        "opciones": "Medio Superior",
+                        "orden": 5
+                    },
+                    {
+                        "filtro_contenido_id": 13,
+                        "opciones": "Promedio de 12 a más",
+                        "orden": 6
+                    }
+                ],
+                "orden": 3
+            },
+            {
+                "filtro_id": 4,
+                "tipo": "seleccion",
+                "objeto": "ckeckbox",
+                "titulo": "Discapacidad",
+                "opciones": [
+                    {
+                        "filtro_contenido_id": 14,
+                        "opciones": "Si",
+                        "orden": 1
+                    },
+                    {
+                        "filtro_contenido_id": 15,
+                        "opciones": "No",
+                        "orden": 2
+                    }
+                ],
+                "orden": 4
+            },
+            {
+                "filtro_id": 5,
+                "tipo": "seleccion",
+                "objeto": "boton",
+                "titulo": "Condiciones Especiales",
+                "opciones": [
+                    {
+                        "filtro_contenido_id": 16,
+                        "opciones": "Pobreza extrema",
+                        "orden": 1
+                    },
+                    {
+                        "filtro_contenido_id": 17,
+                        "opciones": "Lenguas originarias",
+                        "orden": 2
+                    },
+                    {
+                        "filtro_contenido_id": 18,
+                        "opciones": "VRAEM",
+                        "orden": 3
+                    },
+                    {
+                        "filtro_contenido_id": 19,
+                        "opciones": "Huallaga",
+                        "orden": 4
+                    },
+                    {
+                        "filtro_contenido_id": 20,
+                        "opciones": "Población Afroperuana",
+                        "orden": 5
+                    },
+                    {
+                        "filtro_contenido_id": 21,
+                        "opciones": "FF.AA.",
+                        "orden": 6
+                    },
+                    {
+                        "filtro_contenido_id": 22,
+                        "opciones": "Situación de abandono",
+                        "orden": 7
+                    },
+                    {
+                        "filtro_contenido_id": 23,
+                        "opciones": "Investigador o docente",
+                        "orden": 8
+                    },
+                    {
+                        "filtro_contenido_id": 24,
+                        "opciones": "Comunidad Nativa Amazónica",
+                        "orden": 9
+                    },
+                    {
+                        "filtro_contenido_id": 25,
+                        "opciones": "Hijo/a de docente",
+                        "orden": 10
+                    },
+                    {
+                        "filtro_contenido_id": 26,
+                        "opciones": "REPARED",
+                        "orden": 11
+                    }
+                ],
+                "orden": 5
+            }
+        ]
+    },
+    "hasSucceeded": true
+}

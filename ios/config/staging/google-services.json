@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "466919346846",
+    "project_id": "peru-beca-stg",
+    "storage_bucket": "peru-beca-stg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466919346846:android:8e9d2dabdbd978777ba18f",
+        "android_client_info": {
+          "package_name": "com.perubeca.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466919346846-2o2camvrn1klu217q3soffffspbijgr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLC6PjzYl9nho2V4NMMKV3GHAwArnogxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466919346846-2o2camvrn1klu217q3soffffspbijgr5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "466919346846-74e8ps83cludu7l5fqs6fng98ulvet8p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.perubeca.app.stg"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466919346846:android:71b6666a70dc71417ba18f",
+        "android_client_info": {
+          "package_name": "com.perubeca.app.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466919346846-2o2camvrn1klu217q3soffffspbijgr5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLC6PjzYl9nho2V4NMMKV3GHAwArnogxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466919346846-2o2camvrn1klu217q3soffffspbijgr5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "466919346846-74e8ps83cludu7l5fqs6fng98ulvet8p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.perubeca.app.stg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

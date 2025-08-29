@@ -1,0 +1,54 @@
+{
+    "isExpanded": true,
+    "title": "Redes sociales",
+    "data": [
+        {
+            "icon": "facebook.svg",
+            "title": "",
+            "description": "Facebook",
+            "url": "https://www.facebook.com/PRONABEC"
+        },
+        {
+            "icon": "twitter.svg",
+            "title": "",
+            "description": "Twitter",
+            "url": "https://twitter.com/PRONABEC"
+        },
+        {
+            "icon": "instagram.svg",
+            "title": "",
+            "description": "Instagram",
+            "url": "https://instagram.com/pronabec/"
+        },
+        {
+            "icon": "youtube.svg",
+            "title": "",
+            "description": "Youtube",
+            "url": "https://youtube.com/c/PronabecOficial"
+        },
+        {
+            "icon": "flickr.svg",
+            "title": "",
+            "description": "Flicker",
+            "url": "https://www.flickr.com/photos/92430903@N07/sets"
+        },
+        {
+            "icon": "spotify.svg",
+            "title": "",
+            "description": "Spotify",
+            "url": "https://open.spotify.com/show/7BXsRWH4DDfg50djDdqTyo"
+        },
+        {
+            "icon": "linkedin.svg",
+            "title": "",
+            "description": "LinkedIn",
+            "url": "https://www.linkedin.com/company/pronabec/?originalSubdomain=pe"
+        },
+        {
+            "icon": "tik_tok.svg",
+            "title": "",
+            "description": "TikTok",
+            "url": "https://www.tiktok.com/@pronabec"
+        }
+    ]
+}

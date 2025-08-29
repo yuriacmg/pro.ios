@@ -1,0 +1,30 @@
+{
+    "isExpanded": true,
+    "title": "Canales de atención",
+    "data": [
+        {
+            "icon": "map-pin.svg",
+            "title": "Sede central",
+            "description": "Av. Arequipa 1935 Lince,\n Lima, Lima - 15046 \n Perú",
+            "url": ""
+        },
+        {
+            "icon": "phone.svg",
+            "title": "Central telefónica",
+            "description": "(01) 612 - 8230 \n 0 800 00018",
+            "url": ""
+        },
+        {
+            "icon": "clock.svg",
+            "title": "Horario",
+            "description": "Lunes a viernes de \n 8:30 a.m. a 5:30 p.m.",
+            "url": ""
+        },
+        {
+            "icon": "Whatsapp.svg",
+            "title": "Whatsapp",
+            "description": "+51 966 429 596 \n ",
+            "url": "-"
+        }
+    ]
+}

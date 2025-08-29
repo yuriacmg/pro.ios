@@ -1,0 +1,1 @@
+cambiar el archivo -info.plist porque es para corregir el error en la generacion del archive en xcode, se debe reemplazar por el correspondiente de stg

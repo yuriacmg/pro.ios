@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "263095496960",
+    "project_id": "peru-beca-prod",
+    "storage_bucket": "peru-beca-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263095496960:android:9870727b9413c8b8df03e5",
+        "android_client_info": {
+          "package_name": "com.perubeca.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263095496960-68j9dsthp8rfs8kgva53rk47fj5c54km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOpO5KdafSMjyd5wesSZqq3bvxs8yK360"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263095496960-68j9dsthp8rfs8kgva53rk47fj5c54km.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263095496960-lois45kr7n65pu858d8ai0fiv9noco8r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.perubeca.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
