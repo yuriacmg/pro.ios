@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: macos-latest
+    runs-on: macos-14
 
     steps:
       - name: Checkout code
@@ -18,6 +18,9 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.35.1'
+
+      - name: Show Xcode version
+        run: xcodebuild -version
 
       - name: Clean Flutter and iOS build
         run: |
