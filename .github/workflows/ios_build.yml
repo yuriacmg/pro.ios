@@ -79,8 +79,8 @@ jobs:
             FLUTTER_BUILD_NUMBER=${{ env.BUILD_NUMBER }} \
             FLUTTER_BUILD_NAME=1.0.0 \
             -allowProvisioningUpdates \
-            -target 'lib/main_prod.dart' \
-            -flavor 'production'
+            FLUTTER_TARGET="lib/main_prod.dart" \
+            FLAVOR="production"
 
       - name: Create ExportOptions.plist
         run: |
