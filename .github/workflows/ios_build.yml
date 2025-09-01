@@ -37,42 +37,16 @@ jobs:
           pod install --repo-update
           cd ..
 
-      - name: Decode and save certificate
-        env:
-          CERTIFICATE_P12: ${{ secrets.CERTIFICATE_P12 }}
-        run: |
-          mkdir -p certs
-          echo "${CERTIFICATE_P12}" | base64 --decode > certs/certificate.p12
-
-      - name: Decode and save provisioning profile
-        env:
-          PROVISIONING_PROFILE: ${{ secrets.PROVISIONING_PROFILE }}
-        run: |
-          mkdir -p certs
-          echo "${PROVISIONING_PROFILE}" | base64 --decode > certs/profile.mobileprovision
-
-      - name: Install provisioning profile
-        run: |
-          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
-          cp ./certs/profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
-
-      - name: Install certificate in keychain
-        env:
-          CERTIFICATE_PASSWORD: ${{ secrets.CERTIFICATE_PASSWORD }}
-        run: |
-          KEYCHAIN_PATH=$RUNNER_TEMP/build.keychain
-          security create-keychain -p "" $KEYCHAIN_PATH
-          security import ./certs/certificate.p12 -k $KEYCHAIN_PATH -P "${CERTIFICATE_PASSWORD}" -T /usr/bin/codesign
-          security list-keychains -s $KEYCHAIN_PATH
-          security default-keychain -s $KEYCHAIN_PATH
-          security unlock-keychain -p "" $KEYCHAIN_PATH
-          security set-keychain-settings -lut 3600 $KEYCHAIN_PATH
+      - name: Code Signing setup
+        uses: apple-actions/import-codesign-identity@v1
+        with:
+          p12-base64: ${{ secrets.CERTIFICATE_P12 }}
+          p12-password: ${{ secrets.CERTIFICATE_PASSWORD }}
+          mobileprovision-base64: ${{ secrets.PROVISIONING_PROFILE }}
 
       - name: Build iOS app
-        env:
-          CERTIFICATE_PASSWORD: ${{ secrets.CERTIFICATE_PASSWORD }}
         run: |
-          flutter build ipa --release -t lib/main_prod.dart --flavor production
+          flutter build ipa --release -t lib/main_prod.dart --flavor production --team-id 6QGY8GM4S6
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
