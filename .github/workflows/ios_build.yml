@@ -47,17 +47,13 @@ jobs:
             security unlock-keychain -p "" ~/Library/Keychains/build.keychain
             security set-keychain-settings -lut 3600 ~/Library/Keychains/build.keychain
       - name: Build iOS app
-        run: flutter build ipa --release -t lib/main_prod.dart --flavor production --no-codesign --build-name=1.0.0 --build-number=1 dart-define=DEVELOPMENT_TEAM=6QGY8GM4S6
-      - name: Archive iOS app
+        run: flutter build ipa --release -t lib/main_prod.dart --flavor production --build-name=1.0.0 --build-number=1 dart-define=DEVELOPMENT_TEAM=6QGY8GM4S6
+      - name: Export IPA
         run: |
-          xcodebuild archive \
-            -workspace ios/Runner.xcworkspace \
-            -scheme Runner \
-            -configuration Release-production \
+          xcodebuild -exportArchive \
             -archivePath build/ios/archive/Runner.xcarchive \
-            DEVELOPMENT_TEAM=6QGY8GM4S6 \
-            CODE_SIGN_STYLE=Manual \
-            CODE_SIGN_IDENTITY="Apple Distribution"
+            -exportPath build/ios/ipa \
+            -exportOptionsPlist ios/ExportOptions.plist
       - name: List build outputs
         run: ls -R build/ios
       - name: Upload artifact
