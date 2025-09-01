@@ -70,7 +70,7 @@ jobs:
           xcodebuild archive \
           -workspace ios/Runner.xcworkspace \
           -scheme Runner \
-          -configuration release \
+          -configuration Release-production \
           -destination 'generic/platform=iOS' \
           -archivePath build/Runner.xcarchive \
           PROVISIONING_PROFILE_SPECIFIER="Pronabec App" \
