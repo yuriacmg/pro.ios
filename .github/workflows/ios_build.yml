@@ -19,6 +19,9 @@ jobs:
         with:
           flutter-version: '3.35.1'
           channel: 'stable'
+      
+      - name: Flutter Clean
+        run: flutter clean
 
       - name: Show Xcode version
         run: xcodebuild -version
