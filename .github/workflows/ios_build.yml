@@ -84,7 +84,7 @@ jobs:
         run: flutter build ipa --release -t lib/main_prod.dart --flavor production
 
       - name: Upload IPA file
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ios-ipa
           path: build/ios/ipa/*.ipa
