@@ -55,10 +55,6 @@ jobs:
 
           # List identities to confirm the certificate is there
           security find-identity -v -p codesigning
-
-          # Set Flutter build settings
-          flutter build ipa --release \
-            --export-options-plist=ExportOptions.plist
           
       - name: Create ExportOptions.plist
         run: |
@@ -81,7 +77,7 @@ jobs:
           </plist>' > ExportOptions.plist
 
       - name: Build and Archive
-        run: flutter build ipa --release -t lib/main_prod.dart --flavor production
+        run: flutter build ipa --release -t lib/main_prod.dart --flavor production --export-options-plist=ExportOptions.plist
 
       - name: Upload IPA file
         uses: actions/upload-artifact@v4
