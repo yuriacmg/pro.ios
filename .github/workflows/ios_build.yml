@@ -75,9 +75,12 @@ jobs:
             -archivePath build/Runner.xcarchive \
             PROVISIONING_PROFILE_SPECIFIER="Pronabec App" \
             CODE_SIGN_IDENTITY="Apple Distribution: PROGRAMA NACIONAL DE BECAS Y CREDITO EDUCATIVO (6QGY8GM4S6)" \
+            DEVELOPMENT_TEAM="6QGY8GM4S6" \
             FLUTTER_BUILD_NUMBER=${{ env.BUILD_NUMBER }} \
             FLUTTER_BUILD_NAME=1.0.0 \
-            -allowProvisioningUpdates
+            -allowProvisioningUpdates \
+            -target 'lib/main_prod.dart' \
+            -flavor 'production'
 
       - name: Create ExportOptions.plist
         run: |
