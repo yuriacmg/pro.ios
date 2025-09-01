@@ -47,7 +47,7 @@ jobs:
             security unlock-keychain -p "" ~/Library/Keychains/build.keychain
             security set-keychain-settings -lut 3600 ~/Library/Keychains/build.keychain
       - name: Build iOS app
-        run: flutter build ipa --release -t lib/main_prod.dart --flavor production# --no-codesign
+        run: flutter build ipa --release -t lib/main_prod.dart --flavor production --no-codesign
       - name: List build outputs
         run: ls -R build/ios
       - name: Upload artifact
