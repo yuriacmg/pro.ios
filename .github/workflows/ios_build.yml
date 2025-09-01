@@ -42,7 +42,7 @@ jobs:
         run: |
             security create-keychain -p "" build.keychain
             security import ./certs/certificate.p12 -k ~/Library/Keychains/build.keychain -P ${{ secrets.CERT_PASSWORD }} -T /usr/bin/codesign
-            security import ./certs/certificate.p12 -k ~/Library/Keychains/build.keychain -P '${{ secrets.CERTIFICATE_PASSWORD }}' -T /usr/bin/codesign
+            security import ./certs/certificate.p12 -k ~/Library/Keychains/build.keychain -P ${{ secrets.CERTIFICATE_PASSWORD }} -T /usr/bin/codesign
             security list-keychains -s ~/Library/Keychains/build.keychain
             security default-keychain -s ~/Library/Keychains/build.keychain
             security unlock-keychain -p "" ~/Library/Keychains/build.keychain
