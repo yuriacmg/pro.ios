@@ -61,7 +61,7 @@ jobs:
 
       - name: Prepare Pods for Flavor
         run: |
-          flutter build ios --flavor production --no-codesign --release
+          flutter build ios --flavor production --no-codesign --release --target lib/main_prod.dart
 
       - name: Get Build Number and Version
         id: version
