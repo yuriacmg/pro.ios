@@ -68,19 +68,18 @@ jobs:
       - name: Archive with Xcode
         run: |
           xcodebuild archive \
-            -workspace ios/Runner.xcworkspace \
-            -scheme Runner \
-            -configuration Release \
-            -destination 'generic/platform=iOS' \
-            -archivePath build/Runner.xcarchive \
-            PROVISIONING_PROFILE_SPECIFIER="Pronabec App" \
-            CODE_SIGN_IDENTITY="Apple Distribution: PROGRAMA NACIONAL DE BECAS Y CREDITO EDUCATIVO (6QGY8GM4S6)" \
-            DEVELOPMENT_TEAM="6QGY8GM4S6" \
-            FLUTTER_BUILD_NUMBER=${{ env.BUILD_NUMBER }} \
-            FLUTTER_BUILD_NAME=1.0.0 \
-            -allowProvisioningUpdates \
-            FLUTTER_TARGET="lib/main_prod.dart" \
-            FLAVOR="production"
+          -workspace ios/Runner.xcworkspace \
+          -scheme Runner \
+          -configuration release \
+          -destination 'generic/platform=iOS' \
+          -archivePath build/Runner.xcarchive \
+          PROVISIONING_PROFILE_SPECIFIER="Pronabec App" \
+          CODE_SIGN_IDENTITY="Apple Distribution: PROGRAMA NACIONAL DE BECAS Y CREDITO EDUCATIVO (6QGY8GM4S6)" \
+          DEVELOPMENT_TEAM="6QGY8GM4S6" \
+          FLUTTER_BUILD_NUMBER=${{ env.BUILD_NUMBER }} \
+          FLUTTER_BUILD_NAME=1.0.0 \
+          -allowProvisioningUpdates \
+          CODE_SIGNING_ALLOWED=NO
 
       - name: Create ExportOptions.plist
         run: |
