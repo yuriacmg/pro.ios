@@ -38,7 +38,7 @@ jobs:
           cd ..
 
       - name: Code Signing setup
-        uses: apple-actions/import-codesign-identity@v1
+        uses: fastlane/import-codesign-identity@v1
         with:
           p12-base64: ${{ secrets.CERTIFICATE_P12 }}
           p12-password: ${{ secrets.CERTIFICATE_PASSWORD }}
