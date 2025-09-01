@@ -12,44 +12,79 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.35.1'
+          channel: 'stable'
 
       - name: Show Xcode version
         run: xcodebuild -version
 
-      - name: Clean Flutter and iOS build
-        run: |
-          flutter clean
-          rm -rf ios/Pods ios/Podfile.lock
-          rm -rf ~/Library/Developer/Xcode/DerivedData/*
-
-      - name: Install dependencies
+      - name: Get Flutter dependencies
         run: flutter pub get
 
-      - name: Install CocoaPods
+      - name: Install Apple Certificate and Provisioning Profile
+        env:
+          P12_BASE64: ${{ secrets.CERTIFICATE_P12 }}
+          PROVISIONING_PROFILE_BASE64: ${{ secrets.PROVISIONING_PROFILE }}
+          CERTIFICATE_PASSWORD: ${{ secrets.CERTIFICATE_PASSWORD }}
+          KEYCHAIN_NAME: build.keychain
+          KEYCHAIN_PASSWORD: build_password
         run: |
-          cd ios
-          pod install --repo-update
-          cd ..
+          # Create a temporary directory for the files
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
+          
+          # Decode the base64 secrets into files
+          echo "$P12_BASE64" | base64 --decode > certificate.p12
+          echo "$PROVISIONING_PROFILE_BASE64" | base64 --decode > ~/Library/MobileDevice/Provisioning\ Profiles/ios_app_store.mobileprovision
 
-      - name: Code Signing setup
-        uses: fastlane/import-codesign-identity@v1
-        with:
-          p12-base64: ${{ secrets.CERTIFICATE_P12 }}
-          p12-password: ${{ secrets.CERTIFICATE_PASSWORD }}
-          mobileprovision-base64: ${{ secrets.PROVISIONING_PROFILE }}
+          # Create and unlock the keychain
+          security create-keychain -p $KEYCHAIN_PASSWORD $KEYCHAIN_NAME
+          security set-keychain-settings -lu $KEYCHAIN_NAME
+          security unlock-keychain -p $KEYCHAIN_PASSWORD $KEYCHAIN_NAME
+          security default-keychain -s $KEYCHAIN_NAME
+          
+          # Import the certificate into the keychain
+          security import certificate.p12 -k $KEYCHAIN_NAME -P $CERTIFICATE_PASSWORD -T /usr/bin/codesign
 
-      - name: Build iOS app
+          # List keychains to confirm
+          security list-keychains
+
+          # List identities to confirm the certificate is there
+          security find-identity -v -p codesigning
+
+          # Set Flutter build settings
+          flutter build ipa --release \
+            --export-options-plist=ExportOptions.plist
+          
+      - name: Create ExportOptions.plist
         run: |
-          flutter build ipa --release -t lib/main_prod.dart --flavor production --team-id 6QGY8GM4S6
+          echo '<?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>method</key>
+            <string>app-store</string>
+            <key>teamID</key>
+            <string>6QGY8GM4S6</string>
+            <key>signingStyle</key>
+            <string>manual</string>
+            <key>provisioningProfiles</key>
+            <dict>
+                <key>com.perubeca.app</key>
+                <string>Pronabec App</string>
+            </dict>
+          </dict>
+          </plist>' > ExportOptions.plist
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Build and Archive
+        run: flutter build ipa --release -t lib/main_prod.dart --flavor production
+
+      - name: Upload IPA file
+        uses: actions/upload-artifact@v3
         with:
-          name: ios-build
+          name: ios-ipa
           path: build/ios/ipa/*.ipa
