@@ -59,6 +59,10 @@ jobs:
           # List identities to confirm the certificate is there
           security find-identity -v -p codesigning
 
+      - name: Prepare Pods for Flavor
+        run: |
+          flutter build ios --flavor production --no-codesign --release
+
       - name: Get Build Number and Version
         id: version
         run: |
