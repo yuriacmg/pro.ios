@@ -78,9 +78,8 @@ jobs:
           -destination 'generic/platform=iOS' \
           -archivePath build/Runner.xcarchive \
           DEVELOPMENT_TEAM=6QGY8GM4S6 \
-          PROVISIONING_PROFILE_SPECIFIER="Pronabec App" \
           CODE_SIGN_IDENTITY="Apple Distribution: PROGRAMA NACIONAL DE BECAS Y CREDITO EDUCATIVO (6QGY8GM4S6)" \
-          FLUTTER_BUILD_NUMBER=${{ env.BUILD_NUMBER }} \
+          FLUTTER_BUILD_NUMBER=202509010644 \
           FLUTTER_BUILD_NAME=1.0.0 \
           -allowProvisioningUpdates
 
