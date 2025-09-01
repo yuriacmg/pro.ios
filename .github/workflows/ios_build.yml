@@ -48,6 +48,12 @@ jobs:
             security set-keychain-settings -lut 3600 ~/Library/Keychains/build.keychain
       - name: Build iOS app
         run: flutter build ipa --release -t lib/main_prod.dart --flavor production --no-codesign
+      - name: Export IPA
+        run: |
+          xcodebuild -exportArchive \
+            -archivePath build/ios/archive/Runner.xcarchive \
+            -exportPath build/ios/ipa \
+            -exportOptionsPlist ios/ExportOptions.plist
       - name: List build outputs
         run: ls -R build/ios
       - name: Upload artifact
